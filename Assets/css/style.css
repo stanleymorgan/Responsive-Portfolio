@@ -1,0 +1,177 @@
+.name{
+	color: white;
+    background:  #4aaaa5;
+    width: 150px;
+    height: 60px;
+    margin-left: 125px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.contact{
+	color: #4aaaa5;
+    background:  #4aaaa5;
+    width: 50px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+
+.wrapper{
+     background: #d3d3d3;
+     width:  960px;
+     height: 550px;
+     position: relative;
+     border-bottom-style: solid;
+     border-bottom-color: #4aaaa5;
+     border-bottom-width: 20px;
+}
+
+.content{
+	
+	width: 650px;
+	height: 450px;
+	background: white;
+	top: 40px;
+	left: 20px;
+	position: absolute;
+}
+
+img{
+	float: left;
+	border: 20px;
+}
+
+.s1{
+	font-size: 30px;
+	color: #4aaaa5;
+}
+
+.s2{
+	color: #4aaaa5;
+}
+
+.connect{
+	width: 270px;
+	height:150px;
+	position: absolute;
+	background: white;
+	top:40px;
+	right: 10px;
+}
+
+footer{
+	height: 80px;
+	width: 960px;
+	text-align: center;
+	background: #666666;
+	line-height: 60px;
+	color: white;
+
+}
+
+.outer{
+	 background: #d3d3d3;
+     width:  960px;
+     height: 700px;
+     position: relative;
+     border-bottom-style: solid;
+     border-bottom-color: #4aaaa5;
+     border-bottom-width: 20px;
+}
+
+form{
+	width: 650px;
+	height: 600px;
+	background: white;
+	position: absolute;
+	top: 50px;
+	left: 15px;
+
+}
+
+.aside{
+	width: 270px;
+	height:150px;
+	position: absolute;
+	background: white;
+	top:50px;
+	right: 15px;
+}
+
+.s3{
+	font-size: 22px;
+	right: 50px;
+
+}
+
+.s4{
+	color: #4aaaa5;
+	right: 50px;
+}
+
+.enterinfo{
+	height: 30px;
+	width: 550px;
+	background: white;
+	border-style: solid;
+	border-color:  #4aaaa5;
+	border-width: 1px;
+	position: absolute;
+	left: 50px;
+}
+
+.entermessage{
+	height: 200px;
+	width: 550px;
+	background: white;
+	border-style: solid;
+	border-color:  #4aaaa5;
+	border-width: 1px;
+	position: absolute;
+	left: 50px;
+}
+
+.submit{
+	height: 30px;
+	width: 70px;
+	background: #4aaaa5;
+	color: white;
+	font-size: 22px;
+    position: absolute;
+	left: 50px;
+	bottom: 50px;
+}
+
+.formname{
+	font-size: 28px;
+	color: #4aaaa5;
+	padding-top: 10px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.nameinfo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 20px;
+	width: 610px;
+}
+
+.message{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 200px;
+	width: 610px;
+}
+
+.button{
+	margin-left: 20px;
+	color: white;
+	background: #4aaaa5;
+	margin-bottom: 5px;
+}
+
