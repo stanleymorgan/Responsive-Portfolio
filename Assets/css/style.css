@@ -35,14 +35,18 @@
 	background: white;
 	top: 40px;
 	left: 20px;
-	position: absolute;
+	position: relative;
 }
 
-img{
+.pictute{
 	float: left;
 	border: 20px;
 }
-
+ 
+ .bio{
+ 	
+ 	position: relative;
+ }
 .s1{
 	font-size: 30px;
 	color: #4aaaa5;
@@ -85,10 +89,22 @@ form{
 	width: 650px;
 	height: 600px;
 	background: white;
-	position: absolute;
+	position: relative;
 	top: 50px;
 	left: 15px;
 
+}
+
+ul{
+	list-style: none;
+	float: left;
+}
+
+li{
+	font-size: :18px;
+	color: #4aaaa5;
+	margin-left: 5px;
+	margin-right: 5px;
 }
 
 .aside{
@@ -118,7 +134,7 @@ form{
 	border-style: solid;
 	border-color:  #4aaaa5;
 	border-width: 1px;
-	position: absolute;
+	position: relative;
 	left: 50px;
 }
 
@@ -129,7 +145,7 @@ form{
 	border-style: solid;
 	border-color:  #4aaaa5;
 	border-width: 1px;
-	position: absolute;
+	position: relative;
 	left: 50px;
 }
 
@@ -139,7 +155,7 @@ form{
 	background: #4aaaa5;
 	color: white;
 	font-size: 22px;
-    position: absolute;
+    position: relative;
 	left: 50px;
 	bottom: 50px;
 }
@@ -174,4 +190,384 @@ form{
 	background: #4aaaa5;
 	margin-bottom: 5px;
 }
+
+.container{
+     background: #d3d3d3;
+     width:  960px;
+     height: 550px;
+     position: relative;
+     border-bottom-style: solid;
+     border-bottom-color: #4aaaa5;
+     border-bottom-width: 20px;
+}
+
+.inner{
+
+}
+
+
+
+/*  beginning of media queries */
+@media screen and (max-width: 980px){
+
+	.wrapper{
+		width:  100%;
+		height: 750px;
+	}
+
+	.content{
+		width:40%;
+		float: left;
+        display: block;
+        margin-left: 10%;
+        height: 650px;
+        position: relative;
+
+	}
+
+	.connect{
+		width:25%;
+		float: left;
+        display: block;
+        margin-right: 10%;
+
+	}
+
+	.picture{
+		width: 80%;
+		margin: 10%;
+
+	}
+
+	.outer{
+	 background: #d3d3d3;
+     width:  100%;
+     height: 700px;
+     position: relative;
+     border-bottom-style: solid;
+     border-bottom-color: #4aaaa5;
+     border-bottom-width: 20px;
+   }
+
+   form{
+	width: 40%;
+	height: 600px;
+	background: white;
+	position: relative;
+	top: 50px;
+	left: 15px;
+
+   }
+
+   .formname{
+	font-size: 28px;
+	color: #4aaaa5;
+	padding-top: 10px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.nameinfo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 20px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.message{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 200px;
+	width: 610px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.button{
+	margin-left: 20px;
+	color: white;
+	background: #4aaaa5;
+	margin-bottom: 5px;
+}
+
+.aside{
+	width: 25%;
+	height:150px;
+	position: absolute;
+	background: white;
+	top:50px;
+	right: 15%;
+}
+
+.container{
+	 background: #d3d3d3;
+     width:  960px;
+     height: 700px;
+     position: relative;
+     border-bottom-style: solid;
+     border-bottom-color: #4aaaa5;
+     border-bottom-width: 20px;
+}
+
+.inner{
+	width: 650px;
+	height: 600px;
+	background: white;
+	position: relative;
+	float: left;
+	top-margin: 50px;
+	left-margin: 50px;
+}
+
+.satcom{
+	width: 200px;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 20px 0 25px;
+}
+
+.computers{
+	width: 200px;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 20px 0 25px;
+}
+
+.bball{
+	width: 200px;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 20px 0 25px;
+}
+
+.sfood{
+	width: 200px;
+	overflow: auto;
+	position: relative;
+	float: left;
+	margin: 20px 0 25px;
+}
+
+h3{
+	margin-bottom: 20px;
+	height: 30px;
+}
+
+}
+
+
+
+
+@media screen and (max-width: 768px){
+
+	.wrapper{
+		width:  100%;
+		height: 850px;
+	}
+
+	.content{
+		width:88%;
+		float: left;
+        display: block;
+        margin-left: 6%;
+        height: 600px;
+        position: relative;
+
+	}
+
+	.picture{
+		width: 40%;
+		margin: 10%;
+
+	}
+
+	.connect{
+		float: left;
+		position: relative;
+		width: 100%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-bottom: 0;
+     }
+
+     .outer{
+	 background: #d3d3d3;
+     width:  100%;
+     height: 750px;
+     position: relative;
+     border-bottom-style: solid;
+     border-bottom-color: #4aaaa5;
+     border-bottom-width: 100%;
+   }
+
+   form{
+	width: 94%;
+	height: 500px;
+	background: white;
+	position: relative;
+	top: 50px;
+	margin-right: 3%;
+    margin-left:  1%;
+   }
+
+   .formname{
+	font-size: 28px;
+	color: #4aaaa5;
+	padding-top: 10px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.nameinfo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 20px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.message{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 140px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.button{
+	margin-left: 20px;
+	color: white;
+	background: #4aaaa5;
+	margin-bottom: 5px;
+}
+
+.aside{
+	width: 94%;
+	height:150px;
+	position: relative;
+	background: white;
+	top:80px;
+	margin-right: 3%;
+    margin-left:  18%;
+	
+}
+
+}	
+
+@media screen and (max-width: 640px){
+
+	.wrapper{
+		width:  100%;
+		height: 950px;
+	}
+
+	.content{
+		width:94%;
+		
+        display: block;
+        margin-left: 2%;
+        margin-right: 2%;
+        height: 650px;
+        position: relative;
+
+	}
+
+	.connect{
+		width:96%;
+		display: block;
+        margin-left: 2%;
+        margin-right: 2%;
+		clear: both;
+        display: block;
+        position: relative;
+        margin-bottom: 1%;
+
+	}
+
+	.picture{
+		width: 80%;
+		margin: 10%;
+
+	}
+
+	   .outer{
+	 background: #d3d3d3;
+     width:  100%;
+     height: 750px;
+     position: relative;
+     border-bottom-style: solid;
+     border-bottom-color: #4aaaa5;
+     border-bottom-width: 100%;
+   }
+
+   form{
+	width: 92%;
+	height: 500px;
+	background: white;
+	position: relative;
+	top: 50px;
+	margin-left: 2%;
+	margin-right: 2%;
+
+   }
+
+   .formname{
+	font-size: 28px;
+	color: #4aaaa5;
+	padding-top: 10px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+.nameinfo{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 20px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.message{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	height: 140px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.button{
+	margin-left: 20px;
+	color: white;
+	background: #4aaaa5;
+	margin-bottom: 5px;
+}
+
+.aside{
+	width: 92%;
+	height:150px;
+	position: relative;
+	background: white;
+	top:80px;
+	margin-left: 19%;
+	margin-right: 2%;
+}
+
+}
+
 
